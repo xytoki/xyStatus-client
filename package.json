@@ -1,0 +1,28 @@
+{
+  "name": "@xytoki/xystatus-client",
+  "version": "1.1.2",
+  "main": "lib/index.js",
+  "author": "xyToki",
+  "license": "MIT",
+  "dependencies": {
+    "loadavg-windows": "^1.1.1",
+    "msgpack-lite": "^0.1.26",
+    "npmlog": "^4.1.2",
+    "os-utils": "^0.0.14",
+    "pm2": "^4.2.3",
+    "socket.io-client": "^2.3.0",
+    "systeminformation": "^4.23.1"
+  },
+  "scripts": {
+    "build": "node script/build.js"
+  },
+  "bin": {
+    "xystatus-client": "lib/index.js",
+    "xysc-run": "script/install.js"
+  },
+  "devDependencies": {
+    "pkg": "^4.4.4"
+  },
+  "description": "client for xystatus app",
+  "repository": "https://github.com/xytoki/xyStatus-client"
+}
